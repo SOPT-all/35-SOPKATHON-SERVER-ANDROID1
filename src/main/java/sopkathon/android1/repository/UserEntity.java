@@ -35,12 +35,11 @@ public class UserEntity {
     private Boolean isActive;
 
     // 생성자 추가
-    public UserEntity(String name, Double alcoholLevel, Integer level, String part, Integer ranking, String jbti) {
+    public UserEntity(String name, Double alcoholLevel, Integer level, String part, String jbti) {
         this.name = name;
         this.alcoholLevel = alcoholLevel;
         this.level = level;
         this.part = part;
-        this.ranking = ranking;
         this.jbti = jbti;
         this.isActive = true; // 기본값 설정
     }
