@@ -74,7 +74,7 @@ public class UserService {
 
         LoginUserDTO loginUserDTO = LoginUserDTO.builder()
                 .name(user.getName())
-                .imageUrl("")
+                .imageUrl("https://github.com/user-attachments/assets/b0bcd552-a752-4646-9850-2011f9c80226")
                 .part(user.getPart())
                 .ranking(rank)
                 .jpLevel(user.getAlcoholLevel())
@@ -88,7 +88,7 @@ public class UserService {
             rankingDTOList.add(
                     RankingDTO.builder()
                             .name(userEntity.getName())
-                            .imageUrl("")
+                            .imageUrl("https://github.com/user-attachments/assets/191d7461-15ee-4c11-9c54-9b07368e3894")
                             .part(userEntity.getPart())
                             .ranking(ranking)
                             .jpLevel(userEntity.getAlcoholLevel())

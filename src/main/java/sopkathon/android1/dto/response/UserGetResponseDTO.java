@@ -9,16 +9,16 @@ import lombok.NoArgsConstructor;
 public class UserGetResponseDTO {
 
     private String name;
-    private Double alcoholLevel;
+    private Double jpLevel;
     private int cumulative;
     private String part;
     private String jbti;
     private int ranking;
 
 
-    public UserGetResponseDTO(String name, Double alcohollLevel, int cumulative, String part, String jbti, int ranking) {
+    public UserGetResponseDTO(String name, Double jpLevel, int cumulative, String part, String jbti, int ranking) {
         this.name = name;
-        this.alcoholLevel = alcohollLevel;
+        this.jpLevel = jpLevel;
         this.cumulative = cumulative;
         this.part = part;
         this.jbti = jbti;
